@@ -1,0 +1,20 @@
+.heros {
+  .btn-add {
+    margin: 16px 0;
+  }
+  .card {
+    .card-body{
+      .form-row{
+        display: flex;
+        .col{
+          flex:auto
+        }
+      }
+    }
+  }
+  .actions {
+    .btn-modify {
+      margin-right: 8px;
+    }
+  }
+}

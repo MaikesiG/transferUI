@@ -1,0 +1,22 @@
+.transfer-panel {
+  user-select: none;
+  .head {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: 10px;
+  }
+  .list {
+    height: 176px;
+    padding: 0;
+    .list-item {
+      cursor: pointer;
+      padding: 10px;
+      transition: all .2s;
+    }
+    .active {
+      color: #fff;
+      background-color: #007bff;
+    }
+  }
+}
