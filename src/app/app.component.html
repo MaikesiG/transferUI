@@ -1,11 +1,19 @@
-
-<!-- <div id="app">
-  <app-layout></app-layout>
-</div> -->
-
-<div class="demo-sec">
+<!-- <div class="demo-sec">
   <div class="panel">
     <button class="btn btn-primary" (click)="setList()"> reset</button>
     <app-transfer-panel [search]="true" (changed)="onChanged($event)" [list]="list"></app-transfer-panel>
   </div>
+</div> -->
+
+<div class="demo">
+  <section class="m-auto">
+    <app-transfer
+    [sourceData]="list"
+    [search]="true"
+    [customTpl]="myTpl"
+    ></app-transfer>
+  </section>
 </div>
+<ng-template #myTpl let-value>
+  <b>custom tpl--{{value}}</b>
+</ng-template>

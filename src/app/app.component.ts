@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectControlValueAccessor } from '@angular/forms';
-import { TransferItem } from './demos/components/transfer-panel/types';
+import { TransferItem } from './demos/components/transfer/types';
 
 @Component({
   selector: 'app-root',
